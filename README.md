@@ -1,5 +1,8 @@
 # [ msft-phi - Microsoft's Phi Open Models Small Language Models](https://azure.microsoft.com/en-us/products/phi)
-Proof of Concept for MSFT PHI SLMs - [ **Microsoft Phi 3.5** ](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280)
+
+Proof of Concept for MSFT PHI SLMs 
+
+Proof of concept for [ ** Microsoft Phi 3.5 ** ](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280)
 
 
 SLM -> [**Small Language Models**](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-small-language-models)
@@ -14,6 +17,16 @@ Integrations:
 3. [Few Shot Prompting](prompt-template/phi-few-shot-prompt-template.py)
 4. [Sequential Chain](langchanin-chains/phi-langchain-sequential-chain.py)
 5. [Conversation Buffer Memory](langchain-memory/phi-langchain-conversation-buffer-memory.py)
+
+Packages required to be installed:
+1. pip install langchain
+2. pip install langchain-community
+3. pip install transformers
+4. pip install torch
+5. pip install pydantic
+6. pip install sentence-transformers
+
+This uses CUDA
 
 ***Note - This is HuggingFace Implementation, refer to [Azure AI Inference](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-inference-readme?view=azure-python-preview) code samples when deploying models to Azure AI***
 
