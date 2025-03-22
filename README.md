@@ -2,7 +2,7 @@
 
 Proof of Concept for MSFT PHI SLMs 
 
-Proof of concept for [ ** Microsoft Phi 3.5 ** ](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280)
+Proof of concept for [ **Microsoft Phi 3.5** ](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280)
 
 
 SLM -> [**Small Language Models**](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-are-small-language-models)
